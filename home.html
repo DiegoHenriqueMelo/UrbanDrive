@@ -38,12 +38,14 @@
         <article>
             <h2 class="title-article">Faça seu Orçamento</h2>
             <p>Coloque suas informações Aqui!</p>
+            <br>
+            <p><a href="chat.html" class="link-int">Atendimento personalizado...</a></p>
             <form action="" method="post">
                 <fieldset>
                     <legend>Dados Pessoais</legend>
                     <br>
                     <label for="iname">Nome:</label>
-                    <input type="text" name="nome" id="iname" placeholder="Nome" required > 
+                    <input type="text" name="nome" id="iname" placeholder="Nome" required  onclick=> 
                     <br>
                     <label for="isobre">Sobrenome:</label>
                     <input type="text" name="sobre" id="isobre" placeholder="Sobrenome" required>
@@ -52,30 +54,22 @@
                     <input type="number" name="money" id="imoney" placeholder="Valor" required>
                     <br>
                     <label for="icar" >Carro:</label>
-                    <p><input type="checkbox"  name="car" id="icar" > 0Km</p>
-                    <p><input type="checkbox"> Semi-Novo</p>
+                    <p><input type="checkbox"  name="car" class="icar" > 0Km</p>
+                    <p><input type="checkbox"  name="car" class="icar" > Semi-Novo</p>
                     <br>
                     <input type="submit" value="Enviar" class="b-env">
                     <input type="reset" value="Limpar" class="b-lim">
                 </fieldset>
             </form>
-            <div id="resultado"></div>
+            <div id="res">
+                <p></p>
+            </div>
         </article>
     </aside>
     <footer>
         <p>Site criado Por <a href="" class="link-ext">Diego Melo</a> Para <a href="" class="link-ext">GitHub</a></p>
     </footer>
     <script>
-
-
-
-        function orçamento(){
-
-        }
-
-
-
-
 
         function mudouTamanho(){
             if (window.innerWidth >= 768){

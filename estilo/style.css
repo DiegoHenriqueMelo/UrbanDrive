@@ -24,16 +24,23 @@ html, body{
 /* ROOT */
 /* HOME-HEADER */
 h1{
+    padding: 10px;
     margin: 10px;
     font-family: var(--font01);
     font-weight: 500;
     font-style: normal;
     text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.349);
 }
+h1:hover{
+    transition: .3s;
+}
 em{
     color: #BD2A2E;
     font-weight: 600;
     font-style: italic;
+}
+em:hover{
+    color: #fc2027;
 }
 header{
     background-color: #b2bebf;
@@ -49,7 +56,7 @@ header > li{
     display: block;
     text-align: right;
     margin: 10px;
-    margin-top: -40px;
+    margin-top: -50px;
     cursor: pointer;
 }
 menu{
@@ -81,6 +88,7 @@ main{
     margin-top: 20px;
     padding: 10px;
     border-radius: 20px;
+    text-align: justify;
 }
 article{
     margin: auto;
@@ -92,7 +100,6 @@ article{
     text-indent: 10px;
     text-justify: auto;
 }
-
 .img{
     height: 160px;
     padding: 10px;
@@ -106,6 +113,7 @@ article{
 }
 .title-article{
     margin-bottom: 10px;
+    transition: .3s;
 }
 .title-article:hover{
     color: #BD2A2E;
@@ -115,15 +123,36 @@ aside{
     width: 90vw;
     /* background-color: white; */
     margin: auto;
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 10px;
     border-radius: 20px;
+}
+.link-int{
+    text-decoration: none;
+    color: black;
+    margin: auto;
+}
+.link-int:hover{
+    color: #BD2A2E;
+    text-decoration: underline ;
+
 }
 form{
     margin: 10px;
 }
+legend{
+    margin-left: 15px;
+    font-size: 25px;
+    font-style: italic;
+}
 label{
-    margin: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    /* background-color: #b2bebf; */
+    box-sizing: 10px;
+    display: block;
+    text-align: center;
+    font-size: 24px;
 }
 input{
     margin-bottom: 10px;
@@ -132,13 +161,20 @@ input{
     border-radius: 5px;
     border: 1px solid #BD2A2E;
 }
+#iname, #isobre, #imoney{
+    width: 350px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
 input:hover{
     background-color: #be3e43;
     color: white;
     transition: .3s;
 }
-aside > p{
-    
+.icar{
+    margin-left: 47%;
+    margin-top: 10px;
+
 }
 .b-env{
     height: 25px;
