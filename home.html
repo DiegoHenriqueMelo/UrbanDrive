@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Document</title>
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <h1>Urban<em>Drive</em></h1>
+        <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="catalogo.html">Veículos</a></li>
+                <li><a href="parceiros.html">Parcerias</a></li>
+                <li><a href="chat.html">Fale Com Vendedores</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2 class="title-article">Quem nós Somos?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eaque sint commodi libero quam dolores facilis, cupiditate eius ducimus ab laudantium! Saepe modi consequatur fuga veniam reprehenderit doloribus sed nulla.</p>
+            <p>Maiores odit maxime labore, autem libero eligendi voluptatem, eos reiciendis animi praesentium hic qui. Id, quibusdam quas ipsum consectetur suscipit totam explicabo nisi, nostrum nam sequi quia, eaque deleniti velit!</p>
+            <p>Magnam libero odio aliquam aut incidunt dolore quaerat id qui vel molestias inventore dolores voluptate minima eius nam quasi, provident iure maxime distinctio facilis possimus pariatur? Quas placeat aliquam obcaecati.</p>
+            <p>Est, nesciunt voluptatem quibusdam dolorem maxime velit nam, possimus accusamus quia exercitationem expedita perspiciatis! Dignissimos quaerat eveniet aspernatur illo dolorem delectus, placeat sunt dolores, temporibus aliquid maiores nihil ullam voluptates?</p>
+            <p>Harum porro quae, commodi aliquid libero autem rerum! Eligendi nemo ad velit. Mollitia impedit, asperiores esse deserunt magni veniam dignissimos, delectus labore aut quis aspernatur ex. Qui unde ratione dolorum?</p>
+            <p>Aperiam a placeat asperiores doloribus atque necessitatibus omnis aspernatur aliquid velit consectetur commodi, et minima delectus repellendus ipsam numquam optio explicabo itaque? Minima aspernatur accusantium porro repellat fugiat sit vel?</p>
+            <p class="img"></p>
+        </article>
+    </main>
+    <aside>
+        <article>
+            <h2 class="title-article">Faça seu Orçamento</h2>
+            <p>Coloque suas informações Aqui!</p>
+            <form action="" method="post">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <br>
+                    <label for="iname">Nome:</label>
+                    <input type="text" name="nome" id="iname" placeholder="Nome" required > 
+                    <br>
+                    <label for="isobre">Sobrenome:</label>
+                    <input type="text" name="sobre" id="isobre" placeholder="Sobrenome" required>
+                    <br>
+                    <label for="imoney">Valor do Bem:</label>
+                    <input type="number" name="money" id="imoney" placeholder="Valor" required>
+                    <br>
+                    <label for="icar" >Carro:</label>
+                    <p><input type="checkbox"  name="car" id="icar" > 0Km</p>
+                    <p><input type="checkbox"> Semi-Novo</p>
+                    <br>
+                    <input type="submit" value="Enviar" class="b-env">
+                    <input type="reset" value="Limpar" class="b-lim">
+                </fieldset>
+            </form>
+            <div id="resultado"></div>
+        </article>
+    </aside>
+    <footer>
+        <p>Site criado Por <a href="" class="link-ext">Diego Melo</a> Para <a href="" class="link-ext">GitHub</a></p>
+    </footer>
+    <script>
+
+
+
+        function orçamento(){
+
+        }
+
+
+
+
+
+        function mudouTamanho(){
+            if (window.innerWidth >= 768){
+                itens.style.display = 'block'
+            } else{
+                itens.style.display = 'none'
+            }
+        }
+        function clickMenu(){
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+            } else{
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
