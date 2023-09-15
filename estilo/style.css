@@ -159,9 +159,9 @@ input{
     border-radius: 5px;
     border: 1px solid #BD2A2E;
 }
-#txtvel, #txtvel1, #txtvel2{
+/* #txtvel, #txtvel1, #txtvel2{
     width: 250px;
-}
+} */
 input:hover{
     background-color: #be3e43;
     color: white;
