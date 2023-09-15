@@ -142,22 +142,25 @@ legend{
     font-size: 25px;
     font-style: italic;
 }
- 
-.l{
+.div-orç{
+    border: 1px dashed red;
+    text-align: center;
 
+}
+.l{
+    margin: 10px;
     box-sizing: 10px;
     display: block;
     text-align: center;
     font-size: 24px;
 }
 input{
-    margin: 10px 60px;
+    /* margin: 10px 60px; */
     padding: 2px;
     text-align: center;
     border-radius: 5px;
     border: 1px solid #BD2A2E;
 }
-
 input:hover{
     background-color: #be3e43;
     color: white;
@@ -172,7 +175,9 @@ input:hover{
     height: 25px;
     width: 70px;
     margin: 0px;
+    margin-top: 15px;
     margin-left: 80px;
+    margin-bottom: 10px;
 }
 .b-env:hover{
     background-color: #be3e43;
@@ -184,6 +189,7 @@ input:hover{
     width: 75px;
     margin: 0px;
     margin-left: 10px;
+    margin-bottom: 10px;
 }
 .b-lim:hover{
     background-color: #be3e43;
