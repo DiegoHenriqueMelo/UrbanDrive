@@ -161,7 +161,7 @@ input{
     border-radius: 5px;
     border: 1px solid #BD2A2E;
 }
-#iname, #isobre, #imoney{
+#txtvel, #txtvel1, #txtvel2{
     width: 350px;
     margin-left: 30px;
     margin-top: 5px;
@@ -196,6 +196,18 @@ input:hover{
     background-color: #be3e43;
     color: white;
     transition: .3s;
+}
+#res{
+    font-size: 15px;
+    text-align: justify;
+    font-family: var(--font01);
+    margin: 5px 10px;
+    padding: 50px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.281);
+    background-color: white;
+
 }
 /*FOOTER*/
 footer{

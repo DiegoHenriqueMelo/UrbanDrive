@@ -1,19 +1,17 @@
-function calcular(){
-    var name = window.document.querySelector('input#iname')
-    var sobr = window.document.querySelector('input#isobre')
-    var val = window.document.querySelector('input#imoney')
-    var car = window.document.getElementsByName('radcar')
+function calcular() {
+    var txtv = window.document.querySelector('input#txtvel')
+    var txtv1 = window.document.querySelector('input#txtvel1')
+    var txtv2 = window.document.querySelector('input#txtvel2')
     var res = window.document.querySelector('div#res')
-    
-
-    if(name.value.length == 0 ){
-        window.alert('[ERRO] Verifique os dados')
-    } else{
-
-    }
-    res.innerHTML = `Olá, ${name} ${sobr}, veiculo ${car} no valor de ${val} temos 7 unidades!`
+    var nome = String(txtv.value)
+    var sob = String(txtv1.value)
+    var val = Number(txtv2.value)
+    res.innerHTML = `Olá ${nome} ${sob}, no valor de R$${val}.000,00 temos 7 carros à venda!`
 }
-
+function limpar(){
+    var res = window.document.querySelector('div#res')
+    res.innerHTML = 'Coloque seus dados acima'
+}
 function mudouTamanho(){
     if (window.innerWidth >= 768){
         itens.style.display = 'block'

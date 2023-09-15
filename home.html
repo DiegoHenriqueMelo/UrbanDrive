@@ -45,33 +45,25 @@
                 <fieldset>
                     <legend>Dados Pessoais</legend>
                     <br>
-                    <label for="iname" class="l">Nome:</label>
-                    <input type="text" name="nome" id="iname" placeholder="Nome" > 
+                    <label for="txtvel" class="l">Nome</label>
+                    <input type="text" name="txtvel" id="txtvel" placeholder="Escreva Aqui..." required>
                     <br>
-                    <label for="isobre" class="l">Sobrenome:</label>
-                    <input type="text" name="sobre" id="isobre" placeholder="Sobrenome" >
+                    <label for="txtvel1" class="l">Sobrenome</label>
+                    <input type="text" name="txtvel1" id="txtvel1" placeholder="Escreva Aqui..." required>
                     <br>
-                    <label for="imoney" class="l">Valor do Bem:</label>
-                    <input type="number" name="money" id="imoney" placeholder="Valor" >
+                    <label for="txtxvel2" class="l">Valor do carro?</label>
+                    <input type="text" name="txtvel2" id="txtvel2" placeholder="Escreva Aqui..." required>
                     <br>
-                    <p id="imp-car">Carro:
-                        <input type="radio" name="radcar" id="c0km" checked>
-                        <label for="0km">Okm</label>
-                        <input type="radio" name="radcar" id="semi">
-                        <label for="semi">Semi-Novo</label>
-                    </p>
                     <br>
-                    <input type="submit" value="Enviar" class="b-env" onclick="calcular()">
-                    <input type="reset" value="Limpar" class="b-lim">
+                    <input type="button" value="Enviar" class="b-env" onclick="calcular()">
+                    <input type="reset" value="Limpar" class="b-lim" onclick="limpar()">
                 </fieldset>
             </form>
-            <div id="res">
-                <p></p>
-            </div>
+            <div id="res"><p>Coloque seus Dados acima</p></div>
         </article>
     </aside>
     <footer>
-        <p>Site criado Por <a href="" class="link-ext">Diego Melo</a> Para <a href="" class="link-ext">GitHub</a></p>
+        <p>Site criado Por <a href="" class="link-ext">&copy; Diego Melo</a> Para <a href="" class="link-ext">GitHub</a></p>
     </footer>
 
 </body>
