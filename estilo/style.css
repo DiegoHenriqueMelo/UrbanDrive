@@ -138,7 +138,7 @@ aside{
 
 }
 form{
-    /* margin: 10px; */
+    margin: 10px;
 }
 legend{
     /* margin-left: 15px; */
@@ -162,7 +162,7 @@ input{
     border: 1px solid #BD2A2E;
 }
 #txtvel, #txtvel1, #txtvel2{
-    width: 290px;
+    width: 250px;
 }
 input:hover{
     background-color: #be3e43;
