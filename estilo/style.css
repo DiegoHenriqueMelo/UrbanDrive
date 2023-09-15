@@ -143,7 +143,7 @@ legend{
     font-style: italic;
 }
 .div-orç{
-    border: 1px dashed red;
+    /* border: 1px dashed red; */
     text-align: center;
 
 }
@@ -170,28 +170,17 @@ input:hover{
     text-align: center;
     font-size: 20px;
 }
-
-.b-env{
-    height: 25px;
-    width: 70px;
-    margin: 0px;
-    margin-top: 15px;
-    margin-left: 80px;
-    margin-bottom: 10px;
+#div-bq{
+    /* border: 1px solid red; */
+    padding: 10px 0px;
+    text-align: center;
 }
-.b-env:hover{
-    background-color: #be3e43;
-    color: white;
-    transition: .3s;
-}
-.b-lim{
+.b-q{
     height: 25px;
     width: 75px;
-    margin: 0px;
-    margin-left: 10px;
-    margin-bottom: 10px;
 }
-.b-lim:hover{
+
+.b-q:hover{
     background-color: #be3e43;
     color: white;
     transition: .3s;
