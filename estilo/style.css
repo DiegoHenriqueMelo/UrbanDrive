@@ -147,8 +147,8 @@ legend{
 }
  
 .l{
-    /* margin-left: 100px;
-    margin-right: 100px; */
+     margin-left: 100px;
+    margin-right: 100px;
     box-sizing: 10px;
     display: block;
     text-align: center;
@@ -163,7 +163,7 @@ input{
 }
 #txtvel, #txtvel1, #txtvel2{
     width: 250px;
-    /* margin-left: 55px; */
+    margin-left: 55px;
     margin-top: 5px;
 }
 input:hover{
