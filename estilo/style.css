@@ -162,8 +162,8 @@ input{
     border: 1px solid #BD2A2E;
 }
 #txtvel, #txtvel1, #txtvel2{
-    width: 350px;
-    margin-left: 30px;
+    width: 300px;
+    margin-left: 55px;
     margin-top: 5px;
 }
 input:hover{
