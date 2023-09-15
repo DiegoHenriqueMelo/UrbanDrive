@@ -137,16 +137,14 @@ aside{
     text-decoration: underline ;
 
 }
-
 legend{
-    /* margin-left: 15px; */
+
     font-size: 25px;
     font-style: italic;
 }
  
 .l{
-    /* margin-left: 100px;
-    margin-right: 100px; */
+
     box-sizing: 10px;
     display: block;
     text-align: center;
@@ -159,9 +157,7 @@ input{
     border-radius: 5px;
     border: 1px solid #BD2A2E;
 }
-/* #txtvel, #txtvel1, #txtvel2{
-    width: 250px;
-} */
+
 input:hover{
     background-color: #be3e43;
     color: white;
@@ -175,9 +171,8 @@ input:hover{
 .b-env{
     height: 25px;
     width: 70px;
-    /* margin-left: 130px;
-    margin-right: 10px;
-    margin-bottom: 10px; */
+    margin: 0px;
+    margin-left: 130px;
 }
 .b-env:hover{
     background-color: #be3e43;
@@ -187,6 +182,8 @@ input:hover{
 .b-lim{
     height: 25px;
     width: 75px;
+    margin: 0px;
+    margin-left: 10px;
 }
 .b-lim:hover{
     background-color: #be3e43;
