@@ -3,77 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilo/style.css">
     <link rel="stylesheet" href="estilo/media-query.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <script src="script.js"></script>
-    <title>Document</title>
+    <title>Login</title>
 </head>
-<body onresize="mudouTamanho()">
+<body>
     <header>
-        <h1>Urban<em>Drive</em></h1>
-        <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
-        <menu id="itens">
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="catalogo.html">Veículos</a></li>
-                <li><a href="parceiros.html">Parcerias</a></li>
-                <li><a href="chat.html">Fale Com Vendedores</a></li>
-            </ul>
-        </menu>
+        <h1 id="h1-log">Faça seu <em>login</em> abaixo</h1>
     </header>
     <main>
-        <article>
-            <h2 class="title-article">Quem nós Somos?</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eaque sint commodi libero quam dolores facilis, cupiditate eius ducimus ab laudantium! Saepe modi consequatur fuga veniam reprehenderit doloribus sed nulla.</p>
-            <p>Maiores odit maxime labore, autem libero eligendi voluptatem, eos reiciendis animi praesentium hic qui. Id, quibusdam quas ipsum consectetur suscipit totam explicabo nisi, nostrum nam sequi quia, eaque deleniti velit!</p>
-            <p>Magnam libero odio aliquam aut incidunt dolore quaerat id qui vel molestias inventore dolores voluptate minima eius nam quasi, provident iure maxime distinctio facilis possimus pariatur? Quas placeat aliquam obcaecati.</p>
-            <p>Est, nesciunt voluptatem quibusdam dolorem maxime velit nam, possimus accusamus quia exercitationem expedita perspiciatis! Dignissimos quaerat eveniet aspernatur illo dolorem delectus, placeat sunt dolores, temporibus aliquid maiores nihil ullam voluptates?</p>
-            <p>Harum porro quae, commodi aliquid libero autem rerum! Eligendi nemo ad velit. Mollitia impedit, asperiores esse deserunt magni veniam dignissimos, delectus labore aut quis aspernatur ex. Qui unde ratione dolorum?</p>
-            <p>Aperiam a placeat asperiores doloribus atque necessitatibus omnis aspernatur aliquid velit consectetur commodi, et minima delectus repellendus ipsam numquam optio explicabo itaque? Minima aspernatur accusantium porro repellat fugiat sit vel?</p>
-            <p class="img"></p>
-        </article>
-    </main>
-    <aside>
-        <article>
-            <h2 class="title-article">Faça seu Orçamento</h2>
-            <p>Coloque suas informações Aqui!</p>
-            <br>
-            <p><a href="chat.html" class="link-int">Atendimento personalizado...</a></p>
-            <form action="" method="post">
+        <article id="art-log">
                 <fieldset>
-                    <legend>Dados Pessoais</legend>
-                    <br>                        
-                    <label for="txtvel" class="l">Nome: </label>
+                    <legend>
+                        Dados <em><a class="link-int" href="">Sensíveis</a></em>
+                    </legend>
+                    <label for="inome" class="l">Nome Completo</label>
                     <div class="div-orç">
-                        <input type="text" name="txtvel" id="txtvel" placeholder="Escreva Aqui..." required>
+                        <input type="text" name="Nome" id="inome" placeholder="Escreva Aqui..." required >
                     </div>
-                    <br>                        
-                    <label for="txtvel1" class="l">Sobrenome: </label>
+                    <label for="icpf" class="l">CPF</label>
                     <div class="div-orç">
-
-                        <input type="text" name="txtvel1" id="txtvel1" placeholder="Escreva Aqui..." required>
+                        <input type="number" name="cpf" id="icpf" placeholder="Apenas Números" required maxlength="11" minlength="11">
                     </div>
-                    <br>                        
-                    <label for="txtxvel2" class="l">Valor do carro:</label>
+                    <label for="idata" class="l">Data de Nascimento</label>
                     <div class="div-orç">
-
-                        <input type="text" name="txtvel2" id="txtvel2" placeholder="Valor em Milhar" required>
+                        <input type="date" name="data" id="idata" placeholder="Escreva Aqui..." required>
+                    </div>
+                    <div class="div-orç">
+                        <p class="l">Sexo:
+                            <br>
+                            <input type="radio" name="radsex" id="mas" checked>
+                            <label for="mas">Masculino</label>
+                            <input type="radio" name="radsex" id="fem">
+                            <label for="fem">Feminino</label>
+                        </p>
+                    </div>
+                    <label for="idesc" class="l">Descrição do Perfil</label>
+                    <div class="div-orç">
+                        <input type="text" name="desc" id="idesc" placeholder="Escreva Aqui...">
                     </div>
                     <br>
-                        <div id="div-bq">
-                            <input type="button" value="Enviar" class="b-q" onclick="calcular()">
-                            <input type="reset" value="Limpar" class="b-q" onclick="limpar()">
-                        </div>
+                    <div id="div-bq">
+                        <a href="home.html"><input type="submit" value="Enviar" class="b-q"></a>
+                    </div>
+                    <br>
                 </fieldset>
             </form>
-            <div id="res"><p>Coloque seus Dados acima</p></div>
         </article>
-    </aside>
+    </main>
     <footer>
         <p>Site criado Por <a href="" class="link-ext">&copy; Diego Melo</a> Para <a href="" class="link-ext">GitHub</a></p>
     </footer>
-
 </body>
 </html>

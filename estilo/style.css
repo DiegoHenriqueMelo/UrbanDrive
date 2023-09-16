@@ -166,6 +166,9 @@ input:hover{
     color: white;
     transition: .3s;
 }
+#txtvel, #txtvel1, #txtvel2, #inome, #icpf, #idata{
+    width: 300px;
+}
 #imp-car{
     text-align: center;
     font-size: 20px;
@@ -215,4 +218,13 @@ footer>p{
     padding: 3.5px;
     background-color: #BD2A2E;
     border-radius: 10px;
+}
+/* LOGIN */
+#h1-log{
+    text-align: center;
+
+}
+#art-log{
+    margin-top: 20px;
+    margin-bottom: 60px;
 }
