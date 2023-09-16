@@ -166,7 +166,7 @@ input:hover{
     color: white;
     transition: .3s;
 }
-#txtvel, #txtvel1, #txtvel2, #inome, #icpf, #idata{
+#txtvel, #txtvel1, #txtvel2, #inome, #icpf, #idata, #idesc{
     width: 300px;
 }
 #imp-car{

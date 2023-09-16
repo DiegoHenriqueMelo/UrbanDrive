@@ -6,11 +6,12 @@ function calcular() {
     var nome = String(txtv.value)
     var sob = String(txtv1.value)
     var val = Number(txtv2.value)
-    res.innerHTML = `Olá ${nome} ${sob}, no valor de R$${val}.000,00 temos 7 carros à venda!`
+    res.innerHTML = `Olá ${nome} ${sob}, no valor de R$${val}mil temos 7 carros à venda!`
+
 }
 function limpar(){
     var res = window.document.querySelector('div#res')
-    res.innerHTML = 'Coloque seus dados acima'
+    res.innerHTML = 'Coloque seus Dados acima'
 }
 function mudouTamanho(){
     if (window.innerWidth >= 768){
