@@ -76,6 +76,7 @@ menu > ul > li > a{
     /* border: 2px solid #889c9b; */
 }
 menu > ul > li > a:hover{
+    transition: .5s;
     background-color: #486966;
     color: white;
 
