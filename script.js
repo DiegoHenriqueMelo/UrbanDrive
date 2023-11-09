@@ -27,3 +27,9 @@ function clickMenu(){
         itens.style.display = 'block'
     }
 }
+
+function clickFav(){
+    var resv = window.document.querySelector('div#res-1')
+    
+
+}
