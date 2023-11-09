@@ -28,8 +28,20 @@ function clickMenu(){
     }
 }
 
-function clickFav(){
-    var resv = window.document.querySelector('div#res-1')
-    
-
+function clickFav1(){
+    var resv1 = window.document.querySelector('div.res-1')
+    resv1.innerHTML = '<img src=img/coração2.png img>'
 }
+function clickFavRes1(){
+    var resv1 = window.document.querySelector('div.res-1')
+    resv1.innerHTML = '<img src=img/coração1.png img>'
+}
+function clickFav2(){
+    var resv2 = window.document.querySelector('div.res-2')
+    resv2.innerHTML = '<img src=img/coração2.png img>'
+}
+function clickFav3(){
+    var resv3 = window.document.querySelector('div.res-3')
+    resv3.innerHTML = '<img src=img/coração2.png img>'
+}
+
