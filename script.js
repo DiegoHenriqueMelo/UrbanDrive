@@ -29,19 +29,32 @@ function clickMenu(){
 }
 
 function clickFav1(){
-    var resv1 = window.document.querySelector('div.res-1')
+    var resv1 = document.querySelector('div.res-1')
+    let resposta1 = (prompt('Você quer que este veiculo seja Favoritado?'))
+
+if(resposta1 =="Sim" ){
     resv1.innerHTML = '<img src=img/coração2.png img>'
+}else if(resposta1 =='Não'){
+    resv1.innerHTML ='<img src=img/coração1.png img>'
 }
-function clickFavRes1(){
-    var resv1 = window.document.querySelector('div.res-1')
-    resv1.innerHTML = '<img src=img/coração1.png img>'
 }
 function clickFav2(){
-    var resv2 = window.document.querySelector('div.res-2')
+    var resv2 = document.querySelector('div.res-2')
+    let resposta1 = (prompt('Você quer que este veiculo seja Favoritado?'))
+
+if(resposta1 =="Sim"){
     resv2.innerHTML = '<img src=img/coração2.png img>'
+}else if(resposta1 =='Não'){
+    resv2.innerHTML ='<img src=img/coração1.png img>'
+}
 }
 function clickFav3(){
-    var resv3 = window.document.querySelector('div.res-3')
-    resv3.innerHTML = '<img src=img/coração2.png img>'
-}
+    var resv3 = document.querySelector('div.res-3')
+    let resposta1 = (prompt('Você quer que este veiculo seja Favoritado?'))
 
+if(resposta1 =="Sim"){
+    resv3.innerHTML = '<img src=img/coração2.png img>'
+}else if(resposta1 =='Não'){
+    resv3.innerHTML ='<img src=img/coração1.png img>'
+}
+}
