@@ -16,7 +16,7 @@ Extra large screens, TV – 1201px, and more. */
 
 @media screen and (min-width: 481px){
     #art-log{
-        /* margin-bottom: 100px; */
+        margin-bottom: 100px;
     }
     .igm{
         max-width: 235px;
