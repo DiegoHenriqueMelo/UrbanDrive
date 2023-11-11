@@ -16,7 +16,7 @@ Extra large screens, TV – 1201px, and more. */
 
 @media screen and (max-width: 481px){
     .igm{
-        max-width: 300px;
+        max-width: 280px;
     }
 
 }
