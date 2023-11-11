@@ -104,7 +104,7 @@ article{
 .img{
     width: 420px;
     margin: 10px 0px;
-    border-radius: 5px;
+    border-radius: 50%;
 }
 .title-article{
     margin-bottom: 10px;

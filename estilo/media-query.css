@@ -14,7 +14,7 @@ Extra large screens, TV – 1201px, and more. */
     --cor05:#486966;
 }
 
-@media screen and (max-width: 481px){
+@media screen and (min-width: 481px){
     .igm{
         max-width: 280px;
     }
