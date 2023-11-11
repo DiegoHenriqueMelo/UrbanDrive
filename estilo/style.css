@@ -225,8 +225,8 @@ footer>p{
 }
 /* VEICULOS */
 .h2v{
-    /* border: 1px dashed red; */
-    width: 130px;
+    border: 1px dashed green;
+    width: 160px;
     margin: auto;
     margin-bottom: 3px;
 }
@@ -240,8 +240,8 @@ footer>p{
 }
 
 .h3v{
-    /* border: 1px dashed red; */
-    width: 130px;
+    border: 1px dashed red;
+    width: 160px;
     margin: auto;
     margin-bottom: 3px;
 }
