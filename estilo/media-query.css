@@ -45,5 +45,8 @@ Extra large screens, TV – 1201px, and more. */
         width: 768px;
     }
 
+    .igm{
+        max-width: 300px;
+    }
     
 }

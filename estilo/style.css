@@ -185,9 +185,9 @@ input:hover{
 }
 #res{
     font-size: 15px;
-    text-align: justify;
+    text-align: center;
     font-family: var(--font01);
-    margin: 5px 10px;
+    margin: 10px;
     padding: 50px 10px;
     border: 1px solid black;
     border-radius: 10px;
