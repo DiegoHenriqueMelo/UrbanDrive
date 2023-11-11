@@ -245,22 +245,17 @@ footer>p{
     margin: auto;
     margin-bottom: 3px;
 }
-.img-v{
-    margin: 0px 20px;
-    width: 400px;
-    border-radius: 20px;
-}
 .desc-car{
     margin-left:15px;
     margin-bottom: 10px;
     
 }
-.b-q-v{
+.buttonReservar{
     height: 25px;
     width: 75px;
     margin-left:25px;
 }
-.b-q-v:hover{
+.buttonReservar:hover{
     background-color: #be3e43;
     color: white;
     transition: .3s;
