@@ -10,51 +10,57 @@
 </head>
 <body>
     <header>
-        <h1 id="h1-log">Faça seu <em>login</em> abaixo</h1>
+        <div class="container">
+            <h1 id="h1-log">Faça seu <em>login</em> abaixo</h1>
+        </div>
     </header>
     <main>
-        <article id="art-log">
-                <fieldset>
-                    <legend>
-                        Dados <em><a class="link-int" href="">Sensíveis</a></em>
-                    </legend>
-                    <label for="inome" class="l">Nome Completo</label>
-                    <div class="div-orç">
-                        <input type="text" name="Nome" id="inome" placeholder="Escreva Aqui..." required >
-                    </div>
-                    <label for="icpf" class="l">CPF</label>
-                    <div class="div-orç">
-                        <input type="number" name="cpf" id="icpf" placeholder="Apenas Números" required maxlength="11" minlength="11">
-                    </div>
-                    <label for="idata" class="l">Data de Nascimento</label>
-                    <div class="div-orç">
-                        <input type="date" name="data" id="idata" placeholder="Escreva Aqui..." required>
-                    </div>
-                    <div class="div-orç">
-                        <p class="l">Sexo:
-                            <br>
-                            <input type="radio" name="radsex" id="mas" checked>
-                            <label for="mas">Masculino</label>
-                            <input type="radio" name="radsex" id="fem">
-                            <label for="fem">Feminino</label>
-                        </p>
-                    </div>
-                    <label for="idesc" class="l">Descrição do Perfil</label>
-                    <div class="div-orç">
-                        <input type="text" name="desc" id="idesc" placeholder="Escreva Aqui...">
-                    </div>
-                    <br>
-                    <div id="div-bq">
-                        <a href="home.html"><input type="submit" value="Enviar" class="b-q"></a>
-                    </div>
-                    <br>
-                </fieldset>
-            </form>
-        </article>
+        <div class="container">
+            <article id="art-log">
+                    <fieldset>
+                        <legend>
+                            Dados <em><a class="link-int" href="">Sensíveis</a></em>
+                        </legend>
+                        <label for="inome" class="l">Nome Completo</label>
+                        <div class="div-orç">
+                            <input type="text" name="Nome" id="inome" placeholder="Escreva Aqui..." required >
+                        </div>
+                        <label for="icpf" class="l">CPF</label>
+                        <div class="div-orç">
+                            <input type="number" name="cpf" id="icpf" placeholder="Apenas Números" required maxlength="11" minlength="11">
+                        </div>
+                        <label for="idata" class="l">Data de Nascimento</label>
+                        <div class="div-orç">
+                            <input type="date" name="data" id="idata" placeholder="Escreva Aqui..." required>
+                        </div>
+                        <div class="div-orç">
+                            <p class="l">Sexo:
+                                <br>
+                                <input type="radio" name="radsex" id="mas" checked>
+                                <label for="mas">Masculino</label>
+                                <input type="radio" name="radsex" id="fem">
+                                <label for="fem">Feminino</label>
+                            </p>
+                        </div>
+                        <label for="idesc" class="l">Descrição do Perfil</label>
+                        <div class="div-orç">
+                            <input type="text" name="desc" id="idesc" placeholder="Escreva Aqui...">
+                        </div>
+                        <br>
+                        <div id="div-bq">
+                            <a href="home.html"><input type="submit" value="Enviar" class="b-q"></a>
+                        </div>
+                        <br>
+                    </fieldset>
+                </form>
+            </article>
+        </div>
     </main>
     <br>
     <footer>
-        <p>Site criado Por <a href="" class="link-ext">&copy; Diego Melo</a> Para <a href="" class="link-ext">GitHub</a></p>
+        <div class="container">
+            <p>Site criado Por <a href="" class="link-ext">&copy; Diego Melo</a> Para <a href="" class="link-ext">GitHub</a></p>
+        </div>
     </footer>
 </body>
 </html>
