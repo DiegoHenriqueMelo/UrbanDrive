@@ -20,25 +20,243 @@
 html, body{
     background-color: rgb(218, 215, 215);
 }
-.container{
-    grid-template-areas: 
-    "header"
-    "main"
-    "footer"
-    ;
+/* ROOT */
+/* HOME-HEADER */
+h1{
+    padding: 10px;
+    margin: 10px;
+    font-family: var(--font01);
+    font-weight: 500;
+    font-style: normal;
+    text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.349);
 }
-
+h1:hover{
+    transition: .3s;
+}
+em{
+    color: #BD2A2E;
+    font-weight: 600;
+    font-style: italic;
+}
+em:hover{
+    color: #fc2027;
+}
 header{
     background-color: #b2bebf;
-    grid-area: header;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
+header > li{
+    padding: 10px;
+    text-align: center;;
+}
+#burger{
+    color: #BD2A2E;
+    display: block;
+    text-align: right;
+    margin: 10px;
+    margin-top: -50px;
+    cursor: pointer;
+}
+menu{
+    display: none;
+}
+menu > ul{
+    list-style-type: none;
+
+}
+menu > ul > li > a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+header{
+    background-color: #b2bebf;
+    color: black;
+    /* border: 2px solid #889c9b; */
+}
+menu > ul > li > a:hover{
+    transition: .5s;
+    background-color: #486966;
+    color: white;
+}
+/* HOME-MAIN */
 main{
-    background-color: white;
-    grid-area: main;
-    height: 90.3vh;
-    width: 100vw;
+    width: 90vw;
+    /* background-color: white; */
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: justify;
 }
+article{
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color:#889c9b;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.349);
+    text-indent: 10px;
+    text-justify: auto;
+}
+.img{
+    width: 420px;
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+.title-article{
+    margin-bottom: 10px;
+    transition: .3s;
+}
+.title-article:hover{
+    color: #BD2A2E;
+}
+/* HOME-ASIDE */
+aside{
+    width: 90vw;
+    /* background-color: white; */
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.link-int{
+    text-decoration: none;
+    color: black;
+    margin: auto;
+}
+.link-int:hover{
+    color: #BD2A2E;
+    text-decoration: underline ;
+
+}
+legend{
+
+    font-size: 25px;
+    font-style: italic;
+}
+.div-orç{
+    /* border: 1px dashed red; */
+    text-align: center;
+
+}
+.l{
+    margin: 10px;
+    box-sizing: 10px;
+    display: block;
+    text-align: center;
+    font-size: 24px;
+}
+input{
+    /* margin: 10px 60px; */
+    padding: 2px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #BD2A2E;
+}
+input:hover{
+    background-color: #be3e43;
+    color: white;
+    transition: .3s;
+}
+#txtvel, #txtvel1, #txtvel2, #inome, #icpf, #idata, #idesc{
+    width: 300px;
+}
+#imp-car{
+    text-align: center;
+    font-size: 20px;
+}
+#div-bq{
+    /* border: 1px solid red; */
+    padding: 10px 0px;
+    text-align: center;
+}
+.b-q{
+    height: 25px;
+    width: 75px;
+}
+
+.b-q:hover{
+    background-color: #be3e43;
+    color: white;
+    transition: .3s;
+}
+#res{
+    font-size: 15px;
+    text-align: center;
+    font-family: var(--font01);
+    margin: 10px;
+    padding: 50px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.281);
+    background-color: white;
+}
+/*FOOTER*/
 footer{
     background-color: #486966;
-    grid-area: footer;
+    height: 70px;
+}
+footer>p{
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+.link-ext{
+    text-decoration: none;
+    color: white;
+}
+.link-ext:hover{
+    padding: 3.5px;
+    background-color: #BD2A2E;
+    border-radius: 10px;
+}
+/* LOGIN */
+#h1-log{
+    text-align: center;
+
+}
+#art-log{
+    margin-top: 20px;
+    margin-bottom: 52px;
+}
+/* VEICULOS */
+.h2v{
+    border: 1px dashed green;
+    width: 160px;
+    margin: auto;
+    margin-bottom: 3px;
+}
+.h2v:hover{
+    color: #fc2027;
+}
+#favorite{
+    display: block;
+    text-align: left;
+    cursor: pointer;
+}
+
+.h3v{
+    border: 1px dashed red;
+    width: 160px;
+    margin: auto;
+    margin-bottom: 3px;
+}
+.desc-car{
+    margin-left:15px;
+    margin-bottom: 10px;
+
+}
+.buttonReservar{
+    height: 25px;
+    width: 75px;
+    margin-left:25px;
+}
+.buttonReservar:hover{
+    background-color: #be3e43;
+    color: white;
+    transition: .3s;
 }
