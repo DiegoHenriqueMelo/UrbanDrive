@@ -3,64 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilo/style.css">
     <link rel="stylesheet" href="estilo/media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <script src="script.js"></script>
-    <title>Login</title>
+    <title>Document</title>
 </head>
-<body>
-    <header>
-        <div class="container">
-            <h1 id="h1-log">Faça seu <em>login</em> abaixo</h1>
-        </div>
-    </header>
-    <main>
-        <div class="container">
-            <article id="art-log">
-                    <fieldset>
-                        <legend>
-                            Dados <em><a class="link-int" href="">Sensíveis</a></em>
-                        </legend>
-                        <label for="inome" class="l">Nome Completo</label>
-                        <div class="div-orç">
-                            <input type="text" name="Nome" id="inome" placeholder="Escreva Aqui..." required >
-                        </div>
-                        <label for="icpf" class="l">CPF</label>
-                        <div class="div-orç">
-                            <input type="number" name="cpf" id="icpf" placeholder="Apenas Números" required maxlength="11" minlength="11">
-                        </div>
-                        <label for="idata" class="l">Data de Nascimento</label>
-                        <div class="div-orç">
-                            <input type="date" name="data" id="idata" placeholder="Escreva Aqui..." required>
-                        </div>
-                        <div class="div-orç">
-                            <p class="l">Sexo:
-                                <br>
-                                <input type="radio" name="radsex" id="mas" checked>
-                                <label for="mas">Masculino</label>
-                                <input type="radio" name="radsex" id="fem">
-                                <label for="fem">Feminino</label>
-                            </p>
-                        </div>
-                        <label for="idesc" class="l">Descrição do Perfil</label>
-                        <div class="div-orç">
-                            <input type="text" name="desc" id="idesc" placeholder="Escreva Aqui...">
-                        </div>
+<body onresize="mudouTamanho()">
+<div class="container">
+    <div id="header">
+        <header>
+            <h1 id="h1-log">Faça seu <em>login</em> a baixo</h1>
+        </header>
+    </div>
+    <div id="main">
+        <article>
+            <h2 class="title-article">PÁGINA EM DESENVOLVIMENTO</h2>
+            <P>FAÇA LOGIN A DIREITA</P>
+        </article>
+    </div>
+    <div id="aside">
+        <article id="art-log">
+            <fieldset>
+                <legend>
+                    Dados <em><a class="link-int" href="">Sensíveis</a></em>
+                </legend>
+                <label for="inome" class="l">Nome Completo</label>
+                <div class="div-orç">
+                    <input type="text" name="Nome" id="inome" placeholder="Escreva Aqui..." required >
+                </div>
+                <label for="icpf" class="l">CPF</label>
+                <div class="div-orç">
+                    <input type="number" name="cpf" id="icpf" placeholder="Apenas Números" required maxlength="11" minlength="11">
+                </div>
+                <label for="idata" class="l">Data de Nascimento</label>
+                <div class="div-orç">
+                    <input type="date" name="data" id="idata" placeholder="Escreva Aqui..." required>
+                </div>
+                <div class="div-orç">
+                    <p class="l">Sexo:
                         <br>
-                        <div id="div-bq">
-                            <a href="home.html"><input type="submit" value="Enviar" class="b-q"></a>
-                        </div>
-                        <br>
-                    </fieldset>
-                </form>
-            </article>
-        </div>
-    </main>
-    <br>
-    <footer>
-        <div class="container">
-            <p>Site criado Por <a href="" class="link-ext">&copy; Diego Melo</a> Para <a href="" class="link-ext">GitHub</a></p>
-        </div>
-    </footer>
+                        <input type="radio" name="radsex" id="mas" checked>
+                        <label for="mas">Masculino</label>
+                        <input type="radio" name="radsex" id="fem">
+                        <label for="fem">Feminino</label>
+                    </p>
+                </div>
+                <label for="idesc" class="l">Descrição do Perfil</label>
+                <div class="div-orç">
+                    <input type="text" name="desc" id="idesc" placeholder="Escreva Aqui...">
+                </div>
+                <br>
+                <div id="div-bq">
+                    <a href="home.html"><input type="submit" value="Enviar" class="b-q"></a>
+                </div>
+                <br>
+            </fieldset>
+        </form>
+    </article>
+    </div>
+    <div id="footer">
+        <p>Site criado Por <a href="" class="link-ext">&copy; Diego Melo</a> Para <a href="" class="link-ext">GitHub</a></p>
+    </div>
+</div>
 </body>
 </html>
