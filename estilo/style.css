@@ -104,11 +104,13 @@ menu > ul > li > a:hover{
     margin: 10px;
     border-radius: 10px;
     text-align: justify;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.342);
 }
 article{
     border-radius: 10px;
     text-indent: 10px;
     text-justify: auto;
+    
 }
 .title-article{
     margin-bottom: 10px;
@@ -124,6 +126,7 @@ article{
     height: 80vh;
     margin: 10px;
     border-radius: 10px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.342);
 }
 
 .link-int{
@@ -212,5 +215,27 @@ input:hover{
     text-align: center;
 
 }
-
-
+.main-log{
+    background: url(../img/carro3.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.legend-log{
+    /* border: 1px dashed red; */
+    width: 20vw;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: relative;
+    left: 445px;
+    top: 120px;
+}
+.lista-log{
+    margin-bottom: 10px;
+    font: 10px;
+}
+.lista-log:hover{
+    font: 12px;
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.219);
+}
