@@ -1,3 +1,4 @@
+
 function calcular() {
     var txtv = window.document.querySelector('input#txtvel')
     var txtv1 = window.document.querySelector('input#txtvel1')
@@ -12,6 +13,7 @@ function calcular() {
         res.innerHTML = `Olá ${nome} ${sob}, no valor de R$${val}mil temos 7 carros à venda!`
     }
 }
+
 function limpar(){
     var res = window.document.querySelector('div#res')
     res.innerHTML = 'Coloque seus Dados acima'
