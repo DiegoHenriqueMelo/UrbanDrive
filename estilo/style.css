@@ -35,7 +35,7 @@ html, body{
 }
 
 .container div{
-    background-color: #b2bebf;
+    /* background-color: #b2bebf; */
     padding: 20px;
     /* border: 1px solid blue; */
 
@@ -99,6 +99,7 @@ menu > ul > li > a:hover{
 
 /* MAIN */
 #main{
+    background-color: #b2bebf;
     grid-area: main;
     height: 80vh;
     margin: 10px;
@@ -122,6 +123,7 @@ article{
 
 /* ASIDE */
 #aside{
+    background-color: #b2bebf;
     grid-area: aside;
     height: 80vh;
     margin: 10px;
@@ -165,7 +167,7 @@ input:hover{
     color: white;
     transition: .3s;
 }
-#txtvel, #txtvel1, #txtvel2, #iemail, #icpf, #idata, #idesc{
+#txtvel, #txtvel1, #txtvel2, #iemail, #isenha, #icpf, #idata{
     width: 200px;
 }
 #imp-car{
@@ -193,15 +195,20 @@ input:hover{
 }
 /* FOOTER */
 #footer{
+
     grid-area: footer;
-    height: 10vh;
+    height: 25vh;
     background-color: rgba(0, 0, 0, 0.836);
 }
 #footer>p{
+    margin-top: 50px;
     padding: 10px;
     text-align: center;
     font-size: 20px;
     color: white;
+}
+#footer div{
+    padding: 0;
 }
 .link-ext{
     text-decoration: none;
@@ -212,6 +219,22 @@ input:hover{
     background-color: #BD2A2E;
     color: white;
     border-radius: 5px;
+}
+.icon-redes{
+    /* border: 1px dashed red; */
+    margin-left: 45%;
+    margin-right: -45%;
+
+}
+.redes{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.footer-p{
+    margin-top: 10px;
+    color: white;
+    text-align: center;
 }
 /* LOGIN */
 #h1-log{

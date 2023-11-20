@@ -40,12 +40,15 @@
     <div id="aside">
         <article id="art-log">
             <fieldset>
-                <legend>
-                    Dados <em><a class="link-int" href="">Sensíveis</a></em>
-                </legend>
+                <legend>Coloque seus dados <em><a class="link-int" href="">aqui!</a></em></legend>
+                <br>
                 <label for="inome" class="l">E-mail</label>
                 <div class="div-orç">
                     <input type="email" name="email" id="iemail" placeholder="Escreva Aqui..." required >
+                </div>
+                <label for="isenha" class="l">Senha</label>
+                <div class="div-orç">
+                    <input type="password" name="senha" id="isenha" placeholder="Escreva Aqui..." required >
                 </div>
                 <label for="icpf" class="l">CPF</label>
                 <div class="div-orç">
@@ -64,13 +67,9 @@
                         <label for="fem">Feminino</label>
                     </p>
                 </div>
-                <label for="idesc" class="l">Descrição do Perfil</label>
-                <div class="div-orç">
-                    <input type="text" name="desc" id="idesc" placeholder="Escreva Aqui... (opicional)">
-                </div>
                 <br>
                 <div id="div-bq">
-                    <a href="home.html"><input type="submit" value="Enviar" class="b-q" onclick="calcular()"></a>
+                    <a href="home.html"><input type="submit" value="Enviar" class="b-q"></a>
                 </div>
                 <br>
             </fieldset>
