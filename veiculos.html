@@ -1,140 +1,225 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="estilo/style.css">
-    <link rel="stylesheet" href="estilo/media-query.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="estilo/style.css" />
+    <link rel="stylesheet" href="estilo/media-query.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
     <script src="script.js"></script>
     <title>Document</title>
-</head>
-<body onresize="mudouTamanho()">
-<div class="container">
-    <div id="header">
+  </head>
+  <body onresize="mudouTamanho()">
+    <div class="container">
+      <div id="header">
         <header>
-            <h1>Urban<em>Drive</em> 
-                <a href="home.html" class="link-int">
-                    <span class="material-symbols-outlined">directions_car</span>
-                </a>
-            </h1>
-            <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
-            <menu id="itens">
-                <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="veiculos.html">Veículos</a></li>
-                    <li><a href="parceiros.html">Parcerias</a></li>
-                    <li><a href="chat.html">Fale Com Vendedores</a></li>
-                </ul>
-            </menu>
+          <h1>
+            Urban<em>Drive</em>
+            <a href="home.html" class="link-int">
+              <span class="material-symbols-outlined">directions_car</span>
+            </a>
+          </h1>
+          <span
+            id="burger"
+            class="material-symbols-outlined"
+            onclick="clickMenu()"
+            >menu</span
+          >
+          <menu id="itens">
+            <ul>
+              <li><a href="home.html">Home</a></li>
+              <li><a href="veiculos.html">Veículos</a></li>
+              <li><a href="parceiros.html">Parcerias</a></li>
+              <li><a href="chat.html">Fale Com Vendedores</a></li>
+            </ul>
+          </menu>
         </header>
-    </div>
-    <div id="main" class="main-veiculos" style="margin-left: 45px;">
-        <table>
-            <caption><h2 class="title-article">Catálago de veículos</h2></caption>
-            <tbody>
-                <tr>
-                    <td class="card" id="card1">
-                        <h2>Mercedes<span id="res1" class="material-symbols-outlined" onclick="clickFav1()">favorite</span></h2>
-                        <h3>Ano 2022/23</h3>
-                        <span>R$ 160/dia</span>
-                        <br>
-                        <input type="button" value="Alugar" class="b-q">
-                    </td>
-                    <td class="card" id="card2">
-                        <h2>Rand Rover<span id="res2" class="material-symbols-outlined" onclick="clickFav2()">favorite</span></h2>
-                        <h3>Ano 2019/20</h3>
-                        <span>R$ 140/dia</span>
-                        <br>
-                        <input type="button" value="Alugar" class="b-q">
-                    </td>
-                    <td class="card" id="card3">
-                        <h2>BMW<span id="res3" class="material-symbols-outlined" onclick="clickFav3()">favorite</span></h2>
-                        <h3>Ano 2026/17</h3>
-                        <span>R$ 60/dia</span>
-                        <br>
-                        <input type="button" value="Alugar" class="b-q">
-                    </td>
-                    <td class="card" id="card4">
-                        <h2>Lamborghini<span id="res4" class="material-symbols-outlined" onclick="clickFav4()">favorite</span></h2>
-                        <h3>Ano 2023/24</h3>
-                        <span>R$ 200/dia</span>
-                        <br>
-                        <input type="button" value="Alugar" class="b-q">
-                    </td>
-                </tr>
-                <tr>
-                    <td class="card" id="card5">
-                        <h2>Mercedes<span id="res5" class="material-symbols-outlined" onclick="clickFav5()">favorite</span></h2>
-                        <h3>Ano 2018/19</h3>
-                        <span>R$ 110/dia</span>
-                        <br>
-                        <input type="button" value="Alugar" class="b-q">
-                    </td>
-                    <td class="card" id="card6">
-                        <h2>Suzuki<span id="res6" class="material-symbols-outlined" onclick="clickFav6()">favorite</span></h2>
-                        <h3>Ano 2020/21</h3>
-                        <span>R$ 90/dia</span>
-                        <br>
-                        <input type="button" value="Alugar" class="b-q">
-                    </td>
-                    <td class="card" id="card7">
-                        <h2>Honda<span id="res7" class="material-symbols-outlined" onclick="clickFav7()">favorite</span></h2>
-                        <h3>Ano 2012/13</h3>
-                        <span>R$ 50/dia</span>
-                        <br>
-                        <input type="button" value="Alugar" class="b-q">
-                    </td>
-                    <td class="card" id="card8">
-                        <h2>Vespa<span id="res8" class="material-symbols-outlined" onclick="clickFav8()">favorite</span></h2>
-                        <h3>Ano 2016/18</h3>
-                        <span>R$ 70/dia</span>
-                        <br>
-                        <input type="button" value="Alugar" class="b-q">
-                    </td>
-                <tr>
-                    <td class="card" id="card9">
-                        <h2>Maserati<span id="res9" class="material-symbols-outlined" onclick="clickFav9()">favorite</span></h2>
-                        <h3>Ano 2022/23</h3>
-                        <span>R$ 190/dia</span>
-                        <br>
-                        <input type="button" value="Alugar" class="b-q">
-                    </td>
-                    <td class="card" id="card10">
-                        <h2>Jeep<span id="res10" class="material-symbols-outlined" onclick="clickFav10()">favorite</span></h2>
-                        <h3>Ano 1014/15</h3>
-                        <span>R$ 130/dia</span>
-                        <br>
-                    <input type="button" value="Alugar" class="b-q">
-                    </td>
-                    <td class="card" id="card11">
-                        <h2>Audi<span id="res11" class="material-symbols-outlined" onclick="clickFav11()">favorite</span></h2>
-                        <h3>Ano 2018/19</h3>
-                        <span>R$ 120/dia</span>
-                        <br>
-                        <input type="button" value="Alugar" class="b-q">
-                    </td>
-                    <td class="card" id="card12">
-                        <h2>Yamaha<span id="res12" class="material-symbols-outlined" onclick="clickFav12()">favorite</span></h2>
-                        <h3>Ano 2023/24</h3>
-                        <span>R$ 140/dia</span>
-                        <br>
-                        <input type="button" value="Alugar" class="b-q">
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-
-    <div id="footer">
-        <p class="footerp1">Site criado Por <a href="" class="link-ext">&copy; Diego Melo</a></p>
-        <div>
-            <a href="https://www.instagram.com/diegomelo016/" class="icon-redes"><img class="redes" src="img/logo-instagram.jpg" alt=""></a>
-            <a href="https://github.com/DiegoHenriqueMelo" class="icon-redes"><img class="redes" src="img/logo-github.jpg" alt=""></a>
-            <p class="footer-p">E-mail: diegohenriquemelo14@gmail.com | Telefone: +55 (16) 99750-2577</p>
+      </div>
+      <div id="main" class="main-veiculos" style="margin-left: 45px; padding: 20px 0px 100px 0px;" >
+        <div id="catalago">
+            <h2 id="title-catalago" class="title-article">Catálago de veículos</h2>
+            <div class="card" id="card1">
+              <h2>
+                Mercedes<span
+                  id="res1"
+                  class="material-symbols-outlined"
+                  onclick="clickFav1()"
+                  >favorite</span
+                >
+              </h2>
+              <h3>Ano 2022/23</h3>
+              <span class="valores">R$ 160/dia</span>
+              <input type="button" value="Alugar" class="b-q" />
+            </div>
+            <div class="card" id="card2">
+              <h2>
+                Rand Rover<span
+                  id="res2"
+                  class="material-symbols-outlined"
+                  onclick="clickFav2()"
+                  >favorite</span
+                >
+              </h2>
+              <h3>Ano 2019/20</h3>
+              <span class="valores">R$ 140/dia</span>
+              <input type="button" value="Alugar" class="b-q" />
+            </div>
+            <div class="card" id="card3">
+              <h2>
+                BMW<span
+                  id="res3"
+                  class="material-symbols-outlined"
+                  onclick="clickFav3()"
+                  >favorite</span
+                >
+              </h2>
+              <h3>Ano 2016/17</h3>
+              <span class="valores">R$ 60/dia</span>
+              <input type="button" value="Alugar" class="b-q" />
+            </div>
+            <div class="card" id="card4">
+              <h2>
+                Lamborghini<span
+                  id="res4"
+                  class="material-symbols-outlined"
+                  onclick="clickFav4()"
+                  >favorite</span
+                >
+              </h2>
+              <h3>Ano 2023/24</h3>
+              <span class="valores">R$ 200/dia</span>
+              <input type="button" value="Alugar" class="b-q" />
+            </div>
+            <br>
+            <div class="card" id="card5">
+              <h2>
+                Mercedes<span
+                  id="res5"
+                  class="material-symbols-outlined"
+                  onclick="clickFav5()"
+                  >favorite</span
+                >
+              </h2>
+              <h3>Ano 2018/19</h3>
+              <span class="valores">R$ 110/dia</span>
+              <input type="button" value="Alugar" class="b-q" />
+            </div>
+            <div class="card" id="card6">
+              <h2>
+                Suzuki<span
+                  id="res6"
+                  class="material-symbols-outlined"
+                  onclick="clickFav6()"
+                  >favorite</span
+                >
+              </h2>
+              <h3>Ano 2020/21</h3>
+              <span class="valores">R$ 90/dia</span>
+              <input type="button" value="Alugar" class="b-q" />
+            </div>
+            <div class="card" id="card7">
+              <h2>
+                Honda<span
+                  id="res7"
+                  class="material-symbols-outlined"
+                  onclick="clickFav7()"
+                  >favorite</span
+                >
+              </h2>
+              <h3>Ano 2012/13</h3>
+              <span class="valores">R$ 50/dia</span>
+              <input type="button" value="Alugar" class="b-q" />
+            </div>
+            <div class="card" id="card8">
+              <h2>
+                Vespa<span
+                  id="res8"
+                  class="material-symbols-outlined"
+                  onclick="clickFav8()"
+                  >favorite</span
+                >
+              </h2>
+              <h3>Ano 2016/17</h3>
+              <span class="valores">R$ 70/dia</span>
+              <input type="button" value="Alugar" class="b-q" />
+            </div>
+            <br>
+            <div class="card" id="card9">
+              <h2>
+                Maserati<span
+                  id="res9"
+                  class="material-symbols-outlined"
+                  onclick="clickFav9()"
+                  >favorite</span
+                >
+              </h2>
+              <h3>Ano 2022/23</h3>
+              <span class="valores">R$ 190/dia</span>
+              <input type="button" value="Alugar" class="b-q" />
+            </div>
+            <div class="card" id="card10">
+              <h2>
+                Jeep<span
+                  id="res10"
+                  class="material-symbols-outlined"
+                  onclick="clickFav10()"
+                  >favorite</span
+                >
+              </h2>
+              <h3>Ano 2014/15</h3>
+              <span class="valores">R$ 130/dia</span>
+              <input type="button" value="Alugar" class="b-q" />
+            </div>
+            <div class="card" id="card11">
+              <h2>
+                Audi<span
+                  id="res11"
+                  class="material-symbols-outlined"
+                  onclick="clickFav11()"
+                  >favorite</span
+                >
+              </h2>
+              <h3>Ano 2018/19</h3>
+              <span class="valores">R$ 120/dia</span>
+              <input type="button" value="Alugar" class="b-q" />
+            </div>
+            <div class="card" id="card12">
+              <h2>
+                Yamaha<span
+                  id="res12"
+                  class="material-symbols-outlined"
+                  onclick="clickFav12()"
+                  >favorite</span
+                >
+              </h2>
+              <h3>Ano 2023/24</h3>
+              <span class="valores">R$ 140/dia</span>
+              <input type="button" value="Alugar" class="b-q" />
+            </div>
         </div>
+      </div>
+
+      <div id="footer">
+        <p class="footerp1">
+          Site criado Por <a href="" class="link-ext">&copy; Diego Melo</a>
+        </p>
+        <div>
+          <a href="https://www.instagram.com/diegomelo016/" class="icon-redes"
+            ><img class="redes" src="img/logo-instagram.jpg" alt=""
+          /></a>
+          <a href="https://github.com/DiegoHenriqueMelo" class="icon-redes"
+            ><img class="redes" src="img/logo-github.jpg" alt=""
+          /></a>
+          <p class="footer-p">
+            E-mail: diegohenriquemelo14@gmail.com | Telefone: +55 (16)
+            99750-2577
+          </p>
+        </div>
+      </div>
     </div>
-</div>
-</body>
+  </body>
 </html>
