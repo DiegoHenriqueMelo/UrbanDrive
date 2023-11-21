@@ -47,6 +47,9 @@ html, body{
 
 } 
 h2{
+    font-weight: 500;
+    font-size: 19px;
+    font-style: italic;
     font-family: var(--font01);
 }
 p, h3, a{
@@ -296,6 +299,7 @@ input:hover{
 div span{
     cursor: pointer;
     margin-top: 5px;
+    margin-left: 5px;
 }
 .valores{
     margin: 0;
