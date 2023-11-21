@@ -279,9 +279,10 @@ table{
     margin: auto;
     border-collapse: separate;
     background-color: white;
-    padding: 15px;
+    padding: 10px 30px;
     border-radius: 10px;
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.514);
+
 }
 table span{
     cursor: pointer;
@@ -289,10 +290,8 @@ table span{
 }
 
 .card{
-    margin: 10px;
-    width: 180px;
+    width: 230px;
     height: 220px;
-    border-radius: 12px;
     text-align: center;
     background-color: white;
     border: .5px solid black;
@@ -376,12 +375,14 @@ table span{
     background-size: contain;
 
 }
-
 .card:hover{
-    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.486);
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.76);
+    transform: translateZ(30px) scale(1.1);
+    background-color: white;
+    
 }
 .card h2{
-    margin-top: 100px;
+    margin-top: 130px;
 
 }
 .card h3{
