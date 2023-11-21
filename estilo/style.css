@@ -101,12 +101,13 @@ menu > ul > li > a:hover{
 #main{
     background-color: #b2bebf;
     grid-area: main;
-    height: 80vh;
+    height: 100vh;
     margin: 10px;
     border-radius: 10px;
     text-align: justify;
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.342);
 }
+
 article{
     border-radius: 10px;
     text-indent: 10px;
@@ -125,7 +126,7 @@ article{
 #aside{
     background-color: #b2bebf;
     grid-area: aside;
-    height: 80vh;
+    height: 100vh;
     margin: 10px;
     border-radius: 10px;
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.342);
@@ -242,7 +243,7 @@ input:hover{
 
 }
 .main-log{
-    background: url(../img/carro3.jpg);
+    background: url(../img/carro-log.jpg);
     background-position: left;
     background-repeat: no-repeat;
     background-size: contain;
@@ -250,12 +251,15 @@ input:hover{
 .legend-log{
     /* border: 1px dashed red; */
     width: 20vw;
-    margin: 0;
+    margin: 10;
     padding: 0;
     display: flex;
     position: relative;
-    left: 445px;
+    left: 500px;
     top: 120px;
+}
+.legend-log ul{
+    margin-left: 30px;
 }
 .lista-log{
     margin-bottom: 10px;
@@ -264,4 +268,122 @@ input:hover{
 .lista-log:hover{
     font: 12px;
     text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.219);
+}
+
+/* VEICULOS */
+.main-veiculos{
+    width: 90vw;
+}
+table{
+    text-align: center;
+    margin: auto;
+    border-collapse: separate;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.514);
+}
+table span{
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.card{
+    margin: 10px;
+    width: 180px;
+    height: 220px;
+    border-radius: 12px;
+    text-align: center;
+    background-color: white;
+    border: .5px solid black;
+}
+#card1{
+    background: url(../img/carro5.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#card2{    
+    background: url(../img/carro1.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#card3{
+    background: url(../img/moto1.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#card4{
+    background: url(../img/carro4.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#card5{
+    background: url(../img/carro3.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#card6{
+    background: url(../img/moto2.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+#card7{
+    background: url(../img/moto3.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+#card8{
+    background: url(../img/moto4.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+#card9{
+    background: url(../img/carro2.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+#card10{
+    background: url(../img/carro6.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+#card11{
+    background: url(../img/carro7.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+#card12{
+    background: url(../img/moto5.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.card:hover{
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.486);
+}
+.card h2{
+    margin-top: 100px;
+
+}
+.card h3{
+    color: #BD2A2E;
 }
