@@ -312,10 +312,6 @@ div span{
     margin-top: 5px;
     margin-left: 5px;
 }
-.valores{
-    margin: 0;
-}
-
 .card{
     display: inline-block;
     margin: 5px 5.8px;
@@ -430,4 +426,42 @@ div span{
 }
 .card h3{
     color: #BD2A2E;
+}
+/* PARCEIROS */
+
+.main-parceria{
+    height: 100vh;
+}
+.legend-parc{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 10px;
+}
+
+.div-parc{
+    border: .5px solid #486966;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.486);
+    margin: auto;
+    margin-top: 10px;
+    width: 55vw;
+    height: 16vh;
+}
+.div-parc:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.76);
+    transform: translatex(10px) ;
+    background-color: rgba(255, 255, 255, 0.459);
+    
+}
+.parc-1{
+    margin: 10px;
+    padding: 0;
+    height: 4vh;
+}
+.b-q1{
+    margin-top: 10px;
+    height: 25px;
+    width: 75px;
+    background-color: rgba(255, 255, 255, 0.459);
+    border: 1px solid #486966;
 }
