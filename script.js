@@ -5,12 +5,12 @@ function calcular() {
     var txtv2 = window.document.querySelector('input#txtvel2')
     var res = window.document.querySelector('div#res')
     var nome = String(txtv.value)
-    var sob = String(txtv1.value)
+    var marca = String(txtv1.value)
     var val = Number(txtv2.value)
-    if(nome ===  "" || sob === "" || val === 0){
+    if(nome ===  "" || marca === "" || val === 0){
         res.innerHTML = "[ERRO] INSIRA DADOS NO CAMPO ACIMA"
     }else{
-        res.innerHTML = `Olá ${nome} ${sob}, no valor de R$${val}mil temos 7 carros à venda!`
+        res.innerHTML = `Olá ${nome}, nós temos 2 veículos da marca ${marca} no valor de ${val}`
     }
 }
 

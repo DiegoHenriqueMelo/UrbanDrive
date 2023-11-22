@@ -182,8 +182,19 @@ input:hover{
     color: white;
     transition: .3s;
 }
-#txtvel, #txtvel1, #txtvel2, #iemail, #isenha, #icpf, #idata{
+#txtvel, #txtvel1, #txtvel2, #txtvel3, #iemail, #isenha, #icpf, #idata{
     width: 200px;
+}
+#txtvel3{
+    padding: 2px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #BD2A2E; 
+}
+#txtvel3:hover{
+    background-color: #be3e43;
+    color: white;
+    transition: .3s;
 }
 #imp-car{
     text-align: center;
