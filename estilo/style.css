@@ -471,3 +471,10 @@ div span{
 #retro:hover{
     color: rgb(194, 104, 2);
 }
+
+iframe{
+    margin: 25px 10px;
+    height: 90vh;
+    width: 30vw;
+
+}
