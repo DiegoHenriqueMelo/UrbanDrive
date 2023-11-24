@@ -268,23 +268,17 @@ input:hover{
 
 }
 .main-log{
-    background: url(../img/carro-log.jpg);
-    background-position: left;
+
+    background: url(../img/carro-log1.jpg);
+    background-position:  bottom right;
     background-repeat: no-repeat;
     background-size: contain;
 }
-.legend-log{
-    /* border: 1px dashed red; */
+.cont-log{
+    /* border: 1px solid red; */
     width: 20vw;
-    margin: 10;
+    margin: 5px;
     padding: 0;
-    display: flex;
-    position: relative;
-    left: 500px;
-    top: 120px;
-}
-.legend-log ul{
-    margin-left: 30px;
 }
 .lista-log{
     margin-bottom: 10px;
@@ -464,4 +458,16 @@ div span{
     width: 75px;
     background-color: rgba(255, 255, 255, 0.459);
     border: 1px solid #486966;
+}
+#pessoa:hover{
+    color: rgb(48, 125, 241);
+}
+#familia:hover{
+    color: rgb(248, 69, 69);
+}
+#eco:hover{
+    color: green;
+}
+#retro:hover{
+    color: rgb(194, 104, 2);
 }
