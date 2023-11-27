@@ -1,0 +1,148 @@
+@charset "UTF-8";
+/* ROOT */
+@font-face {
+    font-family:'Lexend';
+    src: url(../font/Lexend/Lexend-VariableFont_wght.ttf) format(opentype);
+}
+@font-face {
+    font-family:'Josefin';
+    src: url(../font/Josefin_Sans/JosefinSans-VariableFont_wght.ttf) format(opentype);
+}
+:root{
+    --font01:'Lexend';
+    --font02:'Josefin';
+
+    --cor01:#BD2A2E;
+    --cor02:#3B3936;
+    --cor03:#b2bebf;
+    --cor04:#889c9b;
+    --cor05:#486966;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h2{
+    font-weight: 500;
+    font-size: 19px;
+    font-style: italic;
+    font-family: var(--font01);
+}
+p, h3, a{
+    font-family: var(--font02);
+}
+h1{
+    font-family: var(--font01);
+    font-weight: 500;
+    font-style: normal;
+    text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.349);
+}
+.title-article{
+    margin-bottom: 10px;
+    transition: .3s;
+}
+.title-article:hover{
+    color: #BD2A2E;
+}
+
+h1:hover{
+    transition: .3s;
+}
+em{
+    color: #BD2A2E;
+    font-weight: 600;
+    font-style: italic;
+}
+em:hover{
+    color: #fc2027;
+}
+#money:hover{
+    color: yellow;
+}
+#pessoa:hover{
+    color: rgb(48, 125, 241);
+}
+#familia:hover{
+    color: rgb(248, 69, 69);
+}
+#eco:hover{
+    color: green;
+}
+#retro:hover{
+    color: rgb(194, 104, 2);
+}
+ul, li{
+    margin-left: 10px;
+}
+#div1{
+    margin-top: 40px;
+    height: 35vh;
+    border-radius: 8px;
+    background: url(../img/moto3.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 20px -20px 20px 20px rgba(0, 0, 0, 0.397);
+}
+#div2{
+    margin-top: 40px;
+    height: 35vh;
+    border-radius: 8px;
+    background: url(../img/carro6.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 20px -20px 20px 20px rgba(0, 0, 0, 0.397);
+}
+#div3{
+    margin-top: 40px;
+    height: 35vh;
+    border-radius: 8px;
+    background: url(../img/moto5.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 20px -20px 20px 20px rgba(0, 0, 0, 0.397);
+}
+#div4{
+    margin-top: 40px;
+    height: 35vh;
+    border-radius: 8px;
+    background: url(../img/moto1.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 20px -20px 20px 20px rgba(0, 0, 0, 0.397);
+}
+#div5{
+    margin-top: 40px;
+    height: 35vh;
+    border-radius: 8px;
+    background: url(../img/carro4.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 20px -20px 20px 20px rgba(0, 0, 0, 0.397);
+}
+.b-q2{
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 10px;
+    padding: 10px;
+    height: 45px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.459);
+    border: 1px solid #486966;
+}
+input{
+    /* margin: 10px 60px; */
+    padding: 2px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #BD2A2E;
+}
+input:hover{
+    background-color: #be3e43;
+    color: white;
+    transition: .3s;
+}
