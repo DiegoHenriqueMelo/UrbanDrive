@@ -177,3 +177,28 @@ if(resposta1 == 1){
     resv12.innerHTML ='<img src=img/coração1.png img>'
 }
 }
+
+function perfil(){
+    let txtnome = window.document.querySelector('input#txtnome')
+    let txtsobre = window.document.querySelector('input#txtsobre')
+    let txtprefv = window.document.querySelector('input#txtprefv')
+    let txtmarc = window.document.querySelector('input#txtmarc')
+    let txtcity = window.document.querySelector('input#txtcity')
+    let nome1 = String(txtnome.value)
+    let sobre = String(txtsobre.value)
+    let prefv = String(txtprefv.value)
+    let marc = String(txtmarc.value)
+    let city = String(txtcity.value)
+    let resp1 = window.document.querySelector('p#resp1')
+    let resp2 = window.document.querySelector('p#resp2')
+    let resp3 = window.document.querySelector('p#resp3')
+    let resp4 = window.document.querySelector('p#resp4')
+    let resp5 = window.document.querySelector('p#resp5')
+    resp1.innerHTML = `Nome: ${nome1}`
+    resp2.innerHTML = `Sobrenome: ${sobre}`
+    resp3.innerHTML = `Preferências de Veículo: ${prefv}`
+    resp4.innerHTML = `Marcas: ${marc}`
+    resp5.innerHTML = `Cidade: ${city}`
+}
+
+

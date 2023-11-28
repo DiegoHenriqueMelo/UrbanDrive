@@ -25,21 +25,72 @@
                     <li><a href="home.html">Home</a></li>
                     <li><a href="veiculos.html">Veículos</a></li>
                     <li><a href="parceiros.html">Parcerias</a></li>
-                    <li><a href="chat.html">Fale Com Vendedores</a></li>
                     <li><a href="perfil.html">Perfil</a></li>
                 </ul>
             </menu>
         </header>
     </div>
-    <div id="main">
+    <div id="main" class="main-perf">
         <article>
-            <h2 class="title-article">PÁGINA EM DESENVOLVIMENTO</h2>
-
+            <h2 class="title-article">Seu perfil</h2>
+            <br>
+            <div class="div-perfil">
+                <p id="resp1">Nome:</p>
+            </div>
+            <div class="div-perfil">
+                <p id="resp2">Sobrenome:</p>
+            </div>
+            <div class="div-perfil">
+                <p id="resp3">Preferência de Véculo:</p>
+            </div>
+            <div class="div-perfil">
+                <p id="resp4">Marcas:</p>
+            </div>
+            <div class="div-perfil">
+                <p id="resp5">Cidade:</p>
+            </div>
         </article>
     </div>
     <div id="aside">
         <article>
-            <h2 class="title-article">PÁGINA EM DESENVOLVIMENTO</h2>
+            <h2><em>Preencha</em> o campo a baixo</h2>
+            <form action="" method="post">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <br>                        
+                    <label for="txtnome" class="l">Nome: </label>
+                    <div class="div-orç">
+                        <input type="text" name="txtnome" id="txtnome" placeholder="Escreva Aqui..." required>
+                    </div>
+                    <br>                        
+                    <label for="txtsobre" class="l">Sobrenome: </label>
+                    <div class="div-orç">
+                        <input type="text" name="txtsobre" id="txtsobre" placeholder="Escreva Aqui..." required>
+                    </div>
+                    <br>
+                    <label for="txtprefv" class="l">Preferência de Veículo: </label>
+                    <div class="div-orç">
+                        <input type="text" name="txtprefv" id="txtprefv" placeholder="Escreva Aqui..." required> 
+                    </div>
+                    <br>
+                    <label for="txtmarc" class="l">Marcas: </label>
+                    <div class="div-orç">
+                            <input type="text" name="txtmarc" id="txtmarc" placeholder="Escreva Aqui..." required>  
+                    </div>
+                    <br>                       
+                    <label for="txtcity" class="l">Cidade:</label>
+                    <div class="div-orç">
+                        <input type="text" name="txtcity" id="txtcity" placeholder="Valor em Milhar" required>
+                    </div>
+                    <br>
+                    <br>
+                        <div id="div-bq">
+                            <input type="button" value="Enviar" class="b-q" onclick="perfil()">
+                            <input type="reset" value="Limpar" class="b-q">
+                        </div>
+                        <br>
+                </fieldset>
+            </form>
         </article>
     </div>
     <div id="footer">

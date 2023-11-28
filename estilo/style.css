@@ -178,7 +178,7 @@ input{
     border: 1px solid #BD2A2E;
 }
 input:hover{
-    background-color: #be3e43;
+    background-color: #BD2A2E;
     color: white;
     transition: .3s;
 }
@@ -480,4 +480,51 @@ iframe{
     height: 870px;
     width: 30vw;
     border-radius: 10px;
+}
+/* PERFIL */
+.main-perf{
+    background: url(../img/carro-perf.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.div-perfil{
+    padding: 0;
+    margin: 0;
+    /* border: 1px dashed green; */
+    margin-bottom: 10px;
+    height: 30px;
+}
+#resp1, #resp2, #resp3, #resp4, #resp5, #resp6{
+    margin: 0;
+    padding: 10px;
+    border: 1px solid  #3B3936;
+    border-radius: 10px;
+    background-color: #889c9b;
+}
+#resp1:hover, #resp2:hover, #resp3:hover, #resp4:hover, #resp5:hover, #resp6:hover{
+    background-color: #BD2A2E;
+    color: white;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.486);
+    border: 0;
+    transition: .5s;
+
+}
+
+#txtfoto{
+    border: 0;
+}
+
+.label-perfil{
+    margin: 10px;
+}
+.inp-perf{
+    margin-left: 230px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.inp-perf-foto{
+    margin-left: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
